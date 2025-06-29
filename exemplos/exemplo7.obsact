@@ -1,2 +1,2 @@
 dispositivo : { Termometro , temperatura }
-enviar alerta ("Temperatura esta em" , temperatura ) Termometro
+enviar alerta ("Temperatura esta em" , temperatura ) Termometro .
