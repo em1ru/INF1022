@@ -1,3 +1,4 @@
 dispositivo : { umidade }
 dispositivo : { Monitor }
+set umidade = 30.
 se umidade < 40 entao enviar alerta ("Ar seco detectado") Monitor .
