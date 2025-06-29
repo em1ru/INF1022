@@ -12,6 +12,8 @@ def alerta(device, msg, var=None):
     else:
         print(msg)
 
+umidade = 30
 
 if umidade < 40:
     alerta('Monitor', "Ar seco detectado")
+umidade = 30
