@@ -14,13 +14,13 @@ def ligar(device):
 def desligar(device):
     print(f"{device} desligado!")
 
-def alerta(device, msg):
+def alerta(device, msg, var=None):
     print(f"{device} recebeu o alerta:")
-    print(msg)
+    if var is not None:
+        print(f"{msg} {var}")
+    else:
+        print(msg)
 
-def alerta(device, msg, var):
-    print(f"{device} recebeu o alerta:")
-    print(f"{msg} {var}")
 '''
     inits = ""
     for obs in observations:
